@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0070f3; /* Electric Blue matching logo */
+  --color-background-start: #111111;
+  --color-background-end: #0a0a0a;
+  --color-foreground: #f4f4f5;
+  --font-serif: var(--font-playfair);
+  --font-script: var(--font-great-vibes);
+  --font-sans: var(--font-inter);
+}
+
+@layer base {
+  :root {
+    --background-start-rgb: 17, 17, 17;
+    --background-end-rgb: 10, 10, 10;
+    --foreground-rgb: 244, 244, 245;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #111111;
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+  perspective: 1000px; /* Enable 3D perspective globally */
+}
+
+@layer utilities {
+  .text-gradient-blue {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#0070f3] to-[#509af8];
+  }
+  
+  .glass-dark {
+    @apply bg-black/40 backdrop-blur-md border border-white/5;
+  }
+  
+  .gooey-filter {
+    filter: url('#gooey');
+  }
+}
