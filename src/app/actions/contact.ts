@@ -11,7 +11,7 @@ export type ContactState = {
   success: string | null;
 };
 
-export async function submitContact(prevState: any, formData: FormData): Promise<ContactState> {
+export async function submitContact(_prevState: ContactState, formData: FormData): Promise<ContactState> {
   const name = formData.get("name") as string;
   const email = formData.get("email") as string;
   const details = formData.get("details") as string;

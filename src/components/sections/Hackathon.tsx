@@ -51,7 +51,7 @@ export function Hackathon() {
                 </div>
                 <div className="border-b border-white/5 pb-4">
                   <span className="block text-primary font-bold mb-1">Collaboration</span>
-                  Hugging Face × Scaler
+                  Hugging Face x Scaler
                 </div>
                 <div className="border-b border-white/5 pb-4">
                   <span className="block text-primary font-bold mb-1">Focus</span>
@@ -72,7 +72,7 @@ export function Hackathon() {
             <h3 className="font-serif text-3xl md:text-4xl mb-8 leading-snug">Pushing the boundaries of <span className="text-primary italic">Reinforcement Learning</span>.</h3>
             
             <p className="text-foreground/60 mb-12 leading-loose font-light">
-              Abhinavan's participation in the META OpenENV Hackathon represents our commitment to solving complex, real-world problems through Reinforcement Learning. 
+              Abhinavan&apos;s participation in the META OpenENV Hackathon represents our commitment to solving complex, real-world problems through Reinforcement Learning.
               We tackle open environment challenges that require adaptive intelligence, proving that our systems can scale and evolve under unpredictable conditions.
             </p>
             

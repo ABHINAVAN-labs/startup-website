@@ -5,7 +5,14 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import { motion, AnimatePresence, useMotionValue, useSpring, useScroll } from "framer-motion";
-import { useLenis } from "@studio-freight/react-lenis";
+import { useLenis } from "lenis/react";
+
+const navLinks = [
+  { name: "About", href: "#about" },
+  { name: "Team", href: "#team" },
+  { name: "Projects", href: "#projects" },
+  { name: "Services", href: "#services" },
+];
 
 const Magnetic = ({ children }: { children: React.ReactNode }) => {
   const ref = useRef<HTMLDivElement>(null);
@@ -64,13 +71,6 @@ export function Navbar() {
       lenis?.scrollTo(href, { offset: -100, duration: 1.5, easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)) });
     }
   };
-
-  const navLinks = [
-    { name: "About", href: "#about" },
-    { name: "Team", href: "#team" }, 
-    { name: "Projects", href: "#projects" },
-    { name: "Services", href: "#services" },
-  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -181,7 +181,7 @@ export function Navbar() {
                 onClick={(e) => handleNavClick(e, '#contact')}
                 className="group relative overflow-hidden px-6 py-2.5 text-sm font-medium border border-primary/50 bg-[#111111] hover:border-primary transition-colors duration-300 rounded-full inline-block"
               >
-                <span className="relative z-10 text-primary group-hover:text-white transition-colors duration-300">Let's Talk</span>
+                <span className="relative z-10 text-primary group-hover:text-white transition-colors duration-300">Let&apos;s Talk</span>
                 <div className="absolute inset-0 bg-primary translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-[0.76,0,0.24,1] z-0" />
               </Link>
             </Magnetic>

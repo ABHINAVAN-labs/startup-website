@@ -58,7 +58,7 @@ export function Founders() {
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8 lg:gap-12 px-4 lg:px-0 perspective-[1200px] relative z-20">
-          {founders.map((founder, idx) => (
+          {founders.map((founder) => (
             <motion.div
               key={founder.name}
               style={{ y: founder.y, rotateX, scale }}

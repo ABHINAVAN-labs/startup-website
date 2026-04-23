@@ -38,10 +38,10 @@ export function Contact() {
           <motion.div style={{ y: leftY }} className="md:w-1/2 flex flex-col justify-center relative z-10">
             <span className="text-primary font-script text-4xl mb-4 block">Get in Touch</span>
             <h3 className="font-serif text-5xl md:text-6xl uppercase tracking-widest leading-tight mb-8">
-              Let's Build <br/> Something <span className="text-primary italic">Powerful</span>.
+              Let&apos;s Build <br/> Something <span className="text-primary italic">Powerful</span>.
             </h3>
             <p className="text-foreground/50 mb-12 font-light leading-loose">
-              Whether you need to scale your backend, build an intelligent agent, or architect a complex system—we're here to help. Reach out to discuss your technical requirements.
+              Whether you need to scale your backend, build an intelligent agent, or architect a complex system - we&apos;re here to help. Reach out to discuss your technical requirements.
             </p>
 
             <div 
@@ -134,4 +134,3 @@ export function Contact() {
     </section>
   );
 }
-
