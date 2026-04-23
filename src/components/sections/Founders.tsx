@@ -22,7 +22,7 @@ export function Founders() {
     {
       name: "Manidwiptam Halder",
       role: "Co-Founder",
-      image: "/images/founder1.png",
+      image: "/Images/founder1.png",
       github: "https://github.com/Manidwiptam",
       linkedin: "https://www.linkedin.com/in/manidwiptam/",
       y: y1
@@ -30,7 +30,7 @@ export function Founders() {
     {
       name: "Rohan Banerjee",
       role: "Co-Founder",
-      image: "/images/founder2.png",
+      image: "/Images/founder2.png",
       github: "https://github.com/rohanbanerjee1234567-cell",
       linkedin: "https://www.linkedin.com/in/rohan-banerjee-667283356/",
       y: y1
@@ -38,7 +38,7 @@ export function Founders() {
     {
       name: "Soumyadeep Paul",
       role: "Co-Founder",
-      image: "/images/founder3.png",
+      image: "/Images/founder3.png",
       github: "https://github.com/Soumya03007",
       linkedin: "https://www.linkedin.com/in/soumyadeeppaul7/",
       y: y1
