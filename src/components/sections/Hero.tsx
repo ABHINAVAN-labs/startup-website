@@ -56,7 +56,7 @@ export function Hero() {
             transition={{ duration: 1, delay: 0.4 }}
             className="text-sm md:text-base text-foreground/50 max-w-lg mt-10 tracking-widest uppercase"
           >
-            Scalable Systems • Intelligent Agents • Production-Ready
+            Scalable Systems | Intelligent Agents | Production-Ready
           </motion.p>
 
           <motion.div
